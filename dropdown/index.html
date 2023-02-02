@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Chuckster</title>
+  </head>
+  <body>
+    <form>
+      <select id="joke-categories">
+        <option value="">Select a category</option>
+        <option value="animal">Animals</option>
+        <option value="career">Career</option>
+        <option value="celebrity">Celebrity</option>
+        <!-- Add more options here -->
+      </select>
+      <!-- <input type="button" value="Get Joke" id="submit-button" /> -->
+      <button id="submit-button" type="button">Get Joke</button>
+    </form>
+
+    <div id="joke-container" style="display: none"></div>
+
+    <script src="./index.js" defer></script>
+  </body>
+</html>
